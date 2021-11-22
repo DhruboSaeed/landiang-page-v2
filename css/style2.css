@@ -1002,6 +1002,10 @@ ul {
     display: none;
   }
 
+  nav {
+    padding: 15px 20px;
+  }
+
   #check:checked ~ .item-search {
     display: block;
     background-image: url("../img/Search.png");
@@ -1039,5 +1043,159 @@ ul {
 
   .search-img {
     display: block;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 335px;
+    padding: 35px 0;
+  }
+
+  .main-body-text p {
+    font-size: 15px;
+  }
+
+  .main-body-heading h3 {
+    font-size: 25px;
+  }
+  .main-body .main-body-heading h4 {
+    font-size: 15px;
+  }
+
+  .holding-more-news h1 {
+    font-size: 30px;
+  }
+
+  .holdingimage {
+    flex-direction: column;
+  }
+
+  .newsletter-section {
+    margin-top: 85px;
+    background-image: url("../images/new-background-image.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+  }
+
+  .newsletter-content {
+    margin: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .subscribe-section-left-side {
+    display: flex;
+    justify-content: center;
+    left: -8px;
+    flex-basis: 100%;
+    position: relative;
+  }
+
+  .inner-boy-image {
+    top: -75px;
+    position: relative;
+  }
+
+  .subscribe-section-right-side > h2 {
+    font-size: 22px;
+  }
+
+  .newsletter-label {
+    font-size: 16px;
+  }
+
+  .newsletter-check-text {
+    font-size: 13px;
+  }
+
+  .subscribe-section-right-side {
+    padding-bottom: 50px;
+    flex-basis: 100%;
+    position: relative;
+  }
+
+  .newsletter-input {
+    width: 100%;
+  }
+
+  .newsletter-button {
+    position: absolute;
+    right: 0%;
+    bottom: 95px;
+    padding: 6px 21px;
+    border: none;
+    border-radius: 5px;
+  }
+  .check-box-container {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #3b98fb;
+    border: 2px solid white;
+  }
+
+  .check-box-container .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 3px;
+    height: 6px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+ .middle-image .middle-text {
+    padding: 46px 38px;
+  }
+  .middle-text h1 {
+    font-size: 30px;
+  }
+  .middle-text h4 {
+    font-size: 15px;
+  }
+
+  .footer-container{
+    width: 335px;
+  }
+
+  .row{
+    flex-wrap: wrap;
+  }
+
+  .end-footer{
+    flex-direction: column;
+  }
+
+  .logos{
+    width: 335px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+  }
+
+  .copy-right{
+    padding: 25px 26px;
+  }
+  .copy-right-container{
+    width: 335px;
   }
 }
